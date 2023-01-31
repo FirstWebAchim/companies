@@ -1,0 +1,37 @@
+{
+    "name": "Firmen",
+    "archiveName": "firstweb/companies",
+    "sourceDir": "src",
+    "version": "auto",
+
+    "shortDescription": "Firmeneinträge und Firmenadressen",
+
+    "description": "Firmeneinträge und Firmenadressen",
+
+    "developer": "First-Web GmbH",
+    "developerWebsite": "http://www.first-web.de",
+    "website": "http://www.first-web.de",
+
+    "category": "productinfos",
+
+    "price": "free",
+
+    "require": {
+        "composer/autoload": "^1.0.0",
+        "robinthehood/modified-std-module": "^0.8.0",
+        "robinthehood/modified-ui": "^0.1.0"
+    },
+
+    "modifiedCompatibility": [
+        "2.0.6.0",
+        "2.0.7.0",
+        "2.0.7.1",
+        "2.0.7.2"
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "FirstWeb\\": "/vendor-no-composer/firstweb"
+        }
+    }
+}

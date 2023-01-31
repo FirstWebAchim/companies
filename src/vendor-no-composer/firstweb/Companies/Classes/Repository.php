@@ -8,7 +8,7 @@ class Repository
 {
     public function getAll()
     {
-        $sql = "SELECT * FROM fw_company";
+        $sql = "SELECT * FROM fw_company ORDER BY name";
 
         $query = xtc_db_query($sql);
         $companies = [];

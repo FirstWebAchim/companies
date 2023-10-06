@@ -17,5 +17,5 @@
 <script src="<?= $vars['controller']::TEMPLATE_PATH ?>Scripts/Basics.js?v=<?=time()?>"></script>
 <script src="<?= $vars['controller']::TEMPLATE_PATH ?>Scripts/PaginationView.vue.js?v=<?=time()?>"></script>
 <script src="<?= $vars['controller']::TEMPLATE_PATH ?>Scripts/TextEditLine.vue.js?v=<?=time()?>"></script>
-<script src="<?= $vars['controller']::TEMPLATE_PATH ?>Scripts/TextFieldEditLine.vue.js?v=<?=time()?>"></script>
+<script src="<?= $vars['controller']::TEMPLATE_PATH ?>Scripts/TextfieldEditLine.vue.js?v=<?=time()?>"></script>
 <script src="<?= $vars['controller']::TEMPLATE_PATH ?>Scripts/App.vue.js?v=<?=time()?>"></script>

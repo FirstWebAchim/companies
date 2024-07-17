@@ -1,6 +1,13 @@
 <?php
 
-defined('_VALID_XTC') or die('Direct Access to this location is not allowed.');
+/**
+ * You can find informations about system classes and development at:
+ * https://docs.module-loader.de
+ *
+ * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
+ * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
+ * @phpcs:disable PSR1.Methods.CamelCapsMethodName
+ */
 
 use RobinTheHood\ModifiedStdModule\Classes\StdModule;
 
@@ -8,7 +15,7 @@ class fw_companies extends StdModule
 {
     public function __construct()
     {
-        $this->init('MODULE_FW_COMPANIES');
+        parent::__construct('MODULE_FW_COMPANIES');
 
         $this->checkForUpdate(true);
     }

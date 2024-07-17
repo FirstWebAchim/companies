@@ -12,7 +12,7 @@ class Controller extends StdController
 {
     public const FILE_NAME = 'fw_companies.php';
     public const SESSION_PREFIX = 'fw_companies';
-    public const TEMPLATE_PATH = '../vendor-no-composer/firstweb/Companies/Templates/';
+    public const TEMPLATE_PATH = '../vendor-mmlc/firstweb/companies/Templates/';
 
     protected function invokeIndex(): void
     {

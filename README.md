@@ -24,3 +24,6 @@ We are using:
 We are using:
 - [Semantic Versioning 2.0.0](https://semver.org)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+### Icon Copyright
+- company by Dika Neto from <a href="https://thenounproject.com/browse/icons/term/company/" target="_blank" title="company Icons">Noun Project</a> (CC BY 3.0)

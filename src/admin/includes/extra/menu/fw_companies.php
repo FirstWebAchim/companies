@@ -1,6 +1,8 @@
 <?php
 
-defined('_VALID_XTC') or die('Direct Access to this location is not allowed.');
+if (rth_is_module_disabled('MODULE_FW_COMPANIES')) {
+    return;
+}
 
 $fwBoxName = [
     'de' => 'Firmen (First-Web)',

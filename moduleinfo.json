@@ -34,7 +34,7 @@
 
     "autoload": {
         "psr-4": {
-            "FirstWeb\\": "/vendor-no-composer/firstweb"
+            "FirstWeb\\Companies\\":  "src-mmlc"
         }
     }
 }
